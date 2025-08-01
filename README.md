@@ -54,7 +54,7 @@ CustomerID,Age,AnnualIncome,SpendingScore
 ##  How to Run
 
 1. **Clone the Repository**  
-        git clone https://github.com/yourusername/pca-visualizer-flask.git
+        git clone https:(https://github.com/Deepakprasath10/PCA.git)
         cd pca-visualizer-flask
         Install Dependencies
         Make sure Python 3.8+ is installed.
