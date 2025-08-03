@@ -72,7 +72,7 @@ Select a CSV file with only numerical columns (optional label column is supporte
 ![alt text](<Screenshot 2025-08-01 144051.png>)
 Click "Submit"
 View the PCA plot (PC1 vs PC2)
-![alt text](<Screenshot 2025-08-01 144102.png>)
+![alt text](<Screenshot 2025-08-03 105308.png>)
 
 🛠 Technologies Used
     Python 3.11+
