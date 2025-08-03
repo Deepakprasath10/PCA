@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PCA Results</title>
+    <title>PCA Output</title>
     <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #888;
+            padding: 10px 15px;
+        }
+
+        th {
+            background-color: #eee;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4a90e2;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h2>PCA Output</h2>
-        {{ tables|safe }}
+        {{ tables[0] | safe }}
+
+        <br>
         <a href="/">← Upload another file</a>
     </div>
 </body>
 </html>
+
