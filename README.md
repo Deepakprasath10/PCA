@@ -15,7 +15,7 @@ A simple and interactive Flask web application that allows users to **upload a C
 ---
 
 
-## 📁 Project Structure
+##  Project Structure
 ```
 PCA/
 ├── app.py # Flask web server
@@ -74,7 +74,7 @@ Click "Submit"
 View the PCA plot (PC1 vs PC2)
 ![alt text](<Screenshot 2025-08-03 105308.png>)
 
-🛠 Technologies Used
+## Technologies Used
     Python 3.11+
     Flask
     Pandas
